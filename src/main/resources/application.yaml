@@ -1,4 +1,8 @@
 spring:
   data:
     mongodb:
-      uri:
+      uri: mongodb+srv://rmarcoux1:password@rmcluster-d4k6i.mongodb.net/sample?retryWrites=true&w=majority
+
+
+server:
+  port: 8081
